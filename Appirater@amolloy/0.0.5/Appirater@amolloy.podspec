@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name          = 'Appirater'
+  s.name          = 'Appirater@amolloy'
   s.version       = '0.0.5'
   s.platform      = :ios
   s.summary       = "A utility that reminds your iPhone app's users to review the app."
