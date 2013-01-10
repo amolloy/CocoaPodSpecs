@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary       = "A utility that reminds your iPhone app's users to review the app."
   s.homepage      = 'http://arashpayan.com/blog/2009/09/07/presenting-appirater/'
   s.author        = { 'Arash Payan' => 'arash.payan@gmail.com' }
-  s.source        = { :git => 'https://github.com/amolloy/appirater.git', :commit => '288a594dcce5284ed022f75160dfb134e3911d69' }
+  s.source        = { :git => 'https://github.com/amolloy/appirater.git', :commit => 'ae01e7890a2a736080f40edf4edd1f0b4cefb077' }
   s.source_files  = '*.{h,m}'
   s.resources	  = 'AppiraterHintViewPage.xib', '*.png'
   s.frameworks    = 'CFNetwork', 'SystemConfiguration', 'QuartzCore'
