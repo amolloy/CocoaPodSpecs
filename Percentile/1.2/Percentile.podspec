@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name         = "Percentile"
-  	s.version      = "1.1"
+  	s.version      = "1.2"
   	s.summary      = "Internal library for calculating percentiles for various baby growth metrics."
   	s.description  = <<-DESC
   	Internal library for calculating percentiles for various baby growth metrics.
