@@ -2,7 +2,6 @@ Pod::Spec.new do |s|
   s.name         = 'ColorPopover@amolloy'
   s.version      = '0.0.1'
   s.platform     =  :ios, '5.0'
-  s.dependency	   'WEPopover', '~> 0.0.1'
   s.homepage     = 'https://github.com/gazolla/ColorPopover'
   s.summary      = 'ColorPopover is a simple component for iOS that provides a "Popover" color picker.'
   s.author       = { 'Sebastiao Gazolla Jr' => 'gz@gazapps.com' }
