@@ -12,10 +12,8 @@ Pod::Spec.new do |s|
   					   :tag => "1.3" }
   	s.source_files = 'Percentile/**/*.{h,m}'
 	s.resource	   = 'GeneratedResources/*', 'Percentile/*.lproj'
-  	s.requires_arc = true
+ 	s.requires_arc = true
   	s.platform	   = :ios
-  
-   	def s.pre_install (pod, _)
-		Dir.chdir(pod.root){ system './BuildStatsFiles.sh' }
-   	end
+  	
+  	s.prepare_command = './BuildStatsFiles.sh'
 end
