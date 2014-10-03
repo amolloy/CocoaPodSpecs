@@ -21,5 +21,4 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency   "Percentile", "1.3"
-  s.dependency   "CHTTextView", "0.1"
 end
