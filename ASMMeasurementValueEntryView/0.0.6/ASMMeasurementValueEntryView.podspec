@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   
   s.requires_arc = true
 
-  s.dependency   "Percentile", "1.3"
+  s.dependency   "Percentile", "~>1"
 end
