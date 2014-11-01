@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.platform     =  :ios, '6.1'
   s.summary      = 'Andy Molloy\'s private repository of code shared between projects.'
   s.author       = { 'Andy Molloy' => 'amolloy@gmail.com' }
-  s.source       = { :git => 'git@bitbucket.org:amolloy/shared.git' }
+  s.source       = { :git => 'git@bitbucket.org:amolloy/shared.git', :tag => s.version.to_s }
   s.source_files = 'Dropbox-Blocks/DBRestClient+Blocks.{h,m}'
   s.requires_arc = true
 end

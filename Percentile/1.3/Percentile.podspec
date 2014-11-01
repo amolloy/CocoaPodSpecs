@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   	s.license      = 'None'
   	s.author       = { "Andy Molloy" => "asmolloy@me.com" }
   	s.source       = { :git => "ssh://git@bitbucket.org/amolloy/percentile.git",
-  					   :tag => "1.3" }
+  					   :tag => s.version.to_s }
   	s.source_files = 'Percentile/**/*.{h,m}'
 	s.resource	   = 'GeneratedResources/*', 'Percentile/*.lproj'
  	s.requires_arc = true

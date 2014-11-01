@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/gazolla/ColorPopover'
   s.summary      = 'ColorPopover is a simple component for iOS that provides a "Popover" color picker.'
   s.author       = { 'Sebastiao Gazolla Jr' => 'gz@gazapps.com' }
-  s.source       = { :git => 'https://github.com/amolloy/ColorPopover.git' }
+  s.source       = { :git => 'https://github.com/amolloy/ColorPopover.git', :tag => s.version.to_s }
   s.source_files = 'Colors/ColorPopover/*.{h,m}'
   s.requires_arc = true
   s.license      = { 

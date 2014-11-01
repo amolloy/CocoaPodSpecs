@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   	s.homepage     = "http://EXAMPLE/ASMLocalizationSystem"
   	s.license      = 'None'
   	s.author       = { "Andy Molloy" => "asmolloy@me.com" }
-  	s.source       = { :git => "ssh://git@bitbucket.org/amolloy/localizationsystem.git" }
+  	s.source       = { :git => "ssh://git@bitbucket.org/amolloy/localizationsystem.git", :tag => s.version.to_s }
   	s.source_files = 'LocalizationSystem/**/*.{h,m}'
   	s.requires_arc = true
   	s.platform     = :ios

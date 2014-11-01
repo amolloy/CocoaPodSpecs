@@ -13,7 +13,8 @@ Pod::Spec.new do |s|
   s.author             = { "Andrew Molloy" => "amolloy@gmail.com" }
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "ssh://git@bitbucket.org/amolloy/ASMMeasurementValueEntryView.git" }
+  s.source       = { :git => "ssh://git@bitbucket.org/amolloy/ASMMeasurementValueEntryView.git",
+  					 :tag => s.version.to_s }
 
   s.source_files = 'ASMMeasurementValueEntryView/*.{h,m}'
   s.resource  = "ASMMeasurementValueEntryView/ASMMeasurementValueKeyboard.xib", "ASMMeasurementValueEntryView/*.lproj"

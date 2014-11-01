@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "5.0"
 
-  s.source       = { :git => "https://github.com/amolloy/SmartCrop.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/amolloy/SmartCrop.git", :tag => s.version.to_s }
 
   s.source_files  = "Source"
 
