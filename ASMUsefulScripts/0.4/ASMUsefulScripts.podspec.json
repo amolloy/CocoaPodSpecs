@@ -12,10 +12,6 @@
     "git": "git@bitbucket.org:amolloy/asmusefulscripts.git"
   },
   "social_media_url": "https://twitter.com/amolloy",
-  "platforms": {
-    "ios": "7.0",
-    "osx": "10.9"
-  },
   "preserve_paths": [
     "Scripts/*"
   ],
