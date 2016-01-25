@@ -1,0 +1,21 @@
+{
+  "name": "ASMUsefulScripts",
+  "version": "0.5",
+  "summary": "Some useful scripts to be added as run script phases.",
+  "description": "Scripts I use for stuff.",
+  "homepage": "http://andymolloy.net",
+  "license": "MIT",
+  "authors": {
+    "Andy Molloy": "amolloy@gmail.com"
+  },
+  "source": {
+    "git": "git@bitbucket.org:amolloy/asmusefulscripts.git"
+  },
+  "social_media_url": "https://twitter.com/amolloy",
+  "preserve_paths": [
+    "Scripts/*"
+  ],
+  "xcconfig": {
+  	 "ASMUsefulScripts": "${PODS_ROOT}/ASMUsefulScripts/Scripts"
+  }
+}
