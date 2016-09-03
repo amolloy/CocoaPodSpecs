@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   	s.homepage     = "http://EXAMPLE/Percentile"
   	s.license      = 'None'
   	s.author       = { "Andy Molloy" => "asmolloy@me.com" }
-  	s.source       = { :git => "ssh://git@bitbucket.org/amolloy/percentile.git", :tag => s.version.to_s }
+  	s.source       = { :git => "git@github.com:amolloy/Percentile.git", :tag => s.version.to_s }
   	s.source_files = 'Percentile/**/*.{h,m}'
 	s.resource	   = 'GeneratedResources/*', 'Percentile/*.lproj'
  	s.requires_arc = true
